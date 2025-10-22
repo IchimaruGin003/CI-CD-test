@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from app.app import dedupe
+from app.app import dedupe,add_numbers
 
 def test_dedupe():
     # 测试基础去重功能

@@ -15,3 +15,10 @@ def test_dedupe():
     
     # 测试字符串去重
     assert list(dedupe(['a', 'b', 'b', 'c'])) == ['a', 'b', 'c']
+
+def test_add_numbers():
+    """测试加法功能 - 新添加的测试"""
+    assert add_numbers(2, 3) == 5
+    assert add_numbers(-1, 1) == 0
+    assert add_numbers(0, 0) == 0
+    assert add_numbers(10, -5) == 5
